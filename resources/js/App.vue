@@ -18,13 +18,6 @@
                         class="nav-item nav-link text-white"
                         >Posts</router-link
                     >
-                </div>
-                <div class="navbar-nav ml-auto" v-if="isLoggedIn">
-                    <router-link
-                        to="/register"
-                        class="nav-item nav-link text-white mr-auto"
-                        >Register new User
-                    </router-link>
                     <a
                         class="nav-item nav-link text-white"
                         style="cursor: pointer"
@@ -37,6 +30,11 @@
                     <router-link to="/" class="nav-item nav-link text-white"
                         >Home</router-link
                     >
+                    <router-link
+                        to="/register"
+                        class="nav-item nav-link text-white mr-auto"
+                        >Register new User
+                    </router-link>
                     <router-link
                         to="/login"
                         class="nav-item nav-link text-white"
